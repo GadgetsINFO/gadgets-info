@@ -1,0 +1,88 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Main Styles */
+#gadgetList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gadget-item {
+    margin: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Add some hover effect */
+.gadget-item:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links {
+    display: inline-block;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img.insta-logo {
+    width: 25px; /* Adjust the width as needed */
+    height: auto;
+}
+
+#gadgetList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    padding: 20px;
+}
+
+.gadget-item {
+    width: calc(20% - 20px); /* Calculate width to fit 5 gadgets with spacing */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
